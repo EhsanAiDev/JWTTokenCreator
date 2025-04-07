@@ -22,7 +22,9 @@ python jwt_token_creator.py -hp <header.payload> -s <secret_key> -alg <algorithm
 ```
 ## Arguments
   -hp: (required) The header and payload value in the format header.payload. This should be a base64url encoded string.
+  
   -s: (required) The secret key used for signing the JWT.
+  
   -alg: (required) The algorithm used for the signature. Choose from the following options:
       SHA-256
       SHA-384
